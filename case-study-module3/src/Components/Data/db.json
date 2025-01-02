@@ -1,0 +1,74 @@
+{
+  "facility": [
+    {
+      "id": 1,
+      "name": "Hotel",
+      "bed": 1,
+      "type": "Hotel",
+      "floor": 1,
+      "direction": "Moutain",
+      "image": "https://banoca.com/wp-content/uploads/2021/03/logo-khach-san.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Villa",
+      "bed": 1,
+      "type": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "floor": 1,
+      "direction": "Moutain",
+      "image": "https://banoca.com/wp-content/uploads/2021/03/logo-khach-san.jpg"
+    },
+    {
+      "id": 3,
+      "name": "House",
+      "bed": 1,
+      "type": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "floor": 1,
+      "direction": "Moutain",
+      "image": "https://banoca.com/wp-content/uploads/2021/03/logo-khach-san.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Penthouse",
+      "bed": 1,
+      "type": "Hotel",
+      "floor": 1,
+      "direction": "Moutain",
+      "image": "https://banoca.com/wp-content/uploads/2021/03/logo-khach-san.jpg"
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Hotel"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "ADMIN"
+    } ,
+    {
+      "id": 2,
+      "username": "user",
+      "password": "123",
+      "role": "USER"
+    }
+  ]
+}
